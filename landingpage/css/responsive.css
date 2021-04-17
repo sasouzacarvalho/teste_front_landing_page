@@ -1,0 +1,144 @@
+@media screen and (max-width: 992px) {
+    body {
+      
+    }
+    .menutop, .aboutcontent, .featurescontent, .featureul,.testimonycontent,
+    .newsletter ul, .footercenter, .rights, .featureul li {
+        width: 100%;
+    }
+
+    .header {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .menu {
+        margin: 0;
+    }
+
+    .menu li {
+        float: none;
+    }
+
+    .conteudo-slider {
+        transform: none;
+        width: 50%;
+    }
+
+    .aboutimage, .abouttext {
+        margin: 0 auto;
+        display: block;
+
+    }
+    
+    
+    .aboutimage {
+        float: none;
+        margin-top: 40px;
+    }
+
+    .abouttext {
+        float: none;
+        width: 70%;
+       text-align: center;
+    }
+
+    .abouttext ul {
+       position: relative;
+       padding: 20px 4px;
+    }
+
+    .abouttext ul li {
+        float: none;
+        text-align: initial;
+    }
+
+    .logos {
+        height: auto;
+        float: left;
+    }
+
+    .logos ul {
+        width: 100%;
+    }
+
+    .logos li {
+        margin: 30px 36px;
+    }
+
+    .featureul li {
+        margin: 0;
+    }
+
+    .newsletter {
+        float: left;
+        width: 100%;
+    }
+
+    .newsletter ul {
+        padding: 0;
+    }
+  }
+
+  @media screen and (max-width:600px) and (min-width: 520px){
+    .conteudo-slider {
+        display: none;
+    }
+
+    .logos li {
+        margin: 30px 6px!important;
+    }
+    .aboutimage {
+        width: 62%;
+    }
+  }
+
+  @media screen and (max-width: 847px){
+    .conteudo-slider {
+        top: 7%;
+        margin-left: 20px;
+    }
+
+    .conteudo-slider h1 {
+        font-size: 20px;
+    }
+
+    .conteudo-slider .slider_text {
+        font-size: 12px;
+        width: 25%;
+    }
+
+    .logos li {
+        margin: 30px 10px;
+    }
+
+    .aboutimage {
+        width: 60% ;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .conteudo-slider {
+        display: none;
+    }
+
+    .logos ul {
+        width: 29%;
+    }
+    .aboutimage {
+        float: none;
+        margin-top: 340px;
+        width: 80%;
+        left: 0;
+    }
+
+    .abouttext {
+        float: none;
+        width: 80%;
+       text-align: center;
+    }
+
+    .abouttext ul {
+        width: 80%;
+        left: 0;
+    }
+  }
